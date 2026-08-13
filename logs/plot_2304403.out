@@ -1,0 +1,5 @@
+Node: node003
+Copied: results/qwen3/cosine_decay/cosine_distance_results.svg -> results/figures/Fig_5.svg
+Copied: results/distortion_surface_controls/distortion_surface_controls.svg -> results/figures/Fig_1.svg
+Copied: results/residual_analysis/decay/main_distance_results.svg -> results/figures/Fig_3.svg
+Copied: results/qwen3/surprisal_decay/surprisal_distance_results.svg -> results/figures/Fig_4.svg

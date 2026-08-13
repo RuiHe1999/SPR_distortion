@@ -1,0 +1,314 @@
+Node: node023
+CUDA devices: 0
+Tue Aug 11 23:11:30 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla T4                       On  |   00000000:61:00.0 Off |                    0 |
+| N/A   32C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+Extract features
+Model: Llama-3.2-3B
+Device: cuda
+Data type: torch.bfloat16
+DistType Position  N  NUnits  NStories
+      CD      K-3 54      49        21
+      CD      K-2 55      50        21
+      CD      K-1 55      50        21
+      CD        K 58      50        21
+      CD      K+1 55      50        21
+      CD      K+2 53      48        21
+      CD      K+3 48      43        21
+      CD    K_END 50      50        21
+      RD      K-3 68      62        21
+      RD      K-2 76      67        21
+      RD      K-1 82      71        21
+      RD        K 86      73        21
+      RD      K+1 82      70        21
+      RD      K+2 75      66        21
+      RD      K+3 70      62        21
+      RD    K_END 73      73        21
+                   Outcome DistType  ... P_FDR_Within Significant_FDR_Within
+3           DeltaSurprisal       CD  ...       0.0000                   True
+4           DeltaSurprisal       CD  ...       0.0514                  False
+5           DeltaSurprisal       CD  ...       0.0043                   True
+6           DeltaSurprisal       CD  ...       0.0050                   True
+2           DeltaSurprisal       CD  ...       0.7303                  False
+1           DeltaSurprisal       CD  ...       0.2073                  False
+0           DeltaSurprisal       CD  ...       0.3464                  False
+7           DeltaSurprisal       CD  ...       0.0050                   True
+11          DeltaSurprisal       RD  ...       0.0000                   True
+12          DeltaSurprisal       RD  ...       0.0000                   True
+13          DeltaSurprisal       RD  ...       0.0000                   True
+14          DeltaSurprisal       RD  ...       0.0000                   True
+10          DeltaSurprisal       RD  ...       0.1388                  False
+9           DeltaSurprisal       RD  ...       0.3353                  False
+8           DeltaSurprisal       RD  ...       0.3112                  False
+15          DeltaSurprisal       RD  ...       0.0063                   True
+19  RepresentationDistance       CD  ...       0.0000                   True
+20  RepresentationDistance       CD  ...       0.0000                   True
+21  RepresentationDistance       CD  ...       0.0000                   True
+22  RepresentationDistance       CD  ...       0.0000                   True
+18  RepresentationDistance       CD  ...       0.0009                   True
+17  RepresentationDistance       CD  ...       0.0007                   True
+16  RepresentationDistance       CD  ...       0.0006                   True
+23  RepresentationDistance       CD  ...       0.0000                   True
+27  RepresentationDistance       RD  ...       0.0000                   True
+28  RepresentationDistance       RD  ...       0.0000                   True
+29  RepresentationDistance       RD  ...       0.0000                   True
+30  RepresentationDistance       RD  ...       0.0000                   True
+26  RepresentationDistance       RD  ...       0.0000                   True
+25  RepresentationDistance       RD  ...       0.0863                  False
+24  RepresentationDistance       RD  ...       0.0007                   True
+31  RepresentationDistance       RD  ...       0.0000                   True
+
+[32 rows x 14 columns]
+
+Surprisal decay
+   DistType  Distance   N  NTrajectories  NStories  NBoundary
+0        CD         0  50             50        21          0
+1        CD         1  50             50        21          2
+2        CD         2  48             48        21          5
+3        CD         3  43             43        21          6
+4        CD         4  37             37        20          7
+5        CD         5  30             30        19          5
+6        CD         6  25             25        17          7
+7        CD         7  18             18        14          3
+8        CD         8  15             15        12          1
+9        CD         9  14             14        11          2
+10       CD        10  12             12         9          5
+11       RD         0  73             73        21          4
+12       RD         1  69             69        21          7
+13       RD         2  62             62        21          5
+14       RD         3  57             57        21          3
+15       RD         4  54             54        21          2
+16       RD         5  52             52        21          5
+17       RD         6  47             47        21          3
+18       RD         7  44             44        21          6
+19       RD         8  38             38        21          1
+20       RD         9  37             37        21          3
+21       RD        10  34             34        20          3
+  DistType         Term   statistic  ...    N  NTrajectories  NDistances
+0       CD    Intercept  169.296514  ...  342             50          11
+1       CD  C(Distance)   29.276712  ...  342             50          11
+2       CD   AtBoundary    0.178928  ...  342             50          11
+3       RD    Intercept  184.985245  ...  567             73          11
+4       RD  C(Distance)   31.361547  ...  567             73          11
+5       RD   AtBoundary    2.192443  ...  567             73          11
+
+[6 rows x 9 columns]
+   DistType  Distance Position  Estimate  ...        T       P   CILow   CIHigh
+0        CD         0        K   10.2014  ...  13.0114  0.0000  8.6259  11.7770
+1        CD         1      K+1    0.5551  ...   2.2370  0.0299  0.0564   1.0537
+2        CD         2      K+2    0.5465  ...   3.1929  0.0025  0.2025   0.8904
+3        CD         3      K+3    0.3817  ...   2.9643  0.0047  0.1229   0.6405
+4        CD         4      K+4    0.4376  ...   3.1683  0.0026  0.1601   0.7152
+5        CD         5      K+5    0.0450  ...   0.3118  0.7565 -0.2448   0.3347
+6        CD         6      K+6    0.3007  ...   2.0902  0.0418  0.0116   0.5899
+7        CD         7      K+7    0.0109  ...   0.1337  0.8942 -0.1525   0.1742
+8        CD         8      K+8    0.1394  ...   1.0717  0.2891 -0.1220   0.4007
+9        CD         9      K+9    0.0264  ...   0.1657  0.8691 -0.2937   0.3464
+10       CD        10     K+10    0.1467  ...   1.3098  0.1964 -0.0784   0.3718
+11       RD         0        K    5.6600  ...  13.6009  0.0000  4.8304   6.4896
+12       RD         1      K+1    2.1576  ...   4.9404  0.0000  1.2870   3.0282
+13       RD         2      K+2    0.8176  ...   4.3173  0.0000  0.4401   1.1951
+14       RD         3      K+3    0.4472  ...   3.4707  0.0009  0.1904   0.7041
+15       RD         4      K+4    0.1376  ...   1.4202  0.1599 -0.0555   0.3307
+16       RD         5      K+5    0.0302  ...   0.3036  0.7623 -0.1679   0.2282
+17       RD         6      K+6    0.1955  ...   1.6285  0.1078 -0.0438   0.4347
+18       RD         7      K+7   -0.0379  ...  -0.3957  0.6935 -0.2289   0.1531
+19       RD         8      K+8    0.0114  ...   0.1969  0.8445 -0.1042   0.1270
+20       RD         9      K+9    0.0984  ...   0.7373  0.4633 -0.1676   0.3644
+21       RD        10     K+10    0.0574  ...   0.5295  0.5981 -0.1586   0.2733
+
+[22 rows x 9 columns]
+  DistType  BoundaryModulation      SE       T       P   CILow  CIHigh
+0       CD              0.0460  0.1087  0.4230  0.6741 -0.1725  0.2645
+1       RD              0.6426  0.4340  1.4807  0.1431 -0.2225  1.5076
+
+   DistType           Model      AICc  ...  RawRMSE  ParamCovCondition  Error
+0        CD      log_cauchy    6.1308  ...   0.1676       3.640110e+15       
+1        CD       power_law    8.5395  ...   0.2341       3.254834e+02       
+2        CD    exp_plus_exp   10.2504  ...   0.1111       2.034603e+09       
+3        CD  exp_plus_power   10.2728  ...   0.1120       9.938500e+06       
+4        CD   zipf_alekseev   13.7776  ...   0.2341       1.040603e+03       
+5        CD     exponential   15.4799  ...   0.3233       5.908139e+02       
+6        CD      log_normal   17.0400  ...   0.2270       6.013465e+12       
+7        CD    broken_stick  109.7926  ...   2.0269       3.992349e+03       
+8        CD       quadratic  129.0997  ...   2.5482       6.103833e+04       
+9        CD          linear  179.7003  ...   2.7931       3.011174e+02       
+10       CD        constant  273.0569  ...   3.0408       1.000000e+00       
+11       RD     exponential   -9.5006  ...   0.0710       1.116029e+02       
+12       RD       power_law   -4.2631  ...   0.1788       1.276224e+02       
+13       RD      log_normal   -4.1293  ...   0.0956       3.216560e+03       
+14       RD   zipf_alekseev   -4.1293  ...   0.0956       5.522617e+02       
+15       RD      log_cauchy   -1.7266  ...   0.0913       7.007413e+04       
+16       RD  exp_plus_power    3.0709  ...   0.0710                inf       
+17       RD    exp_plus_exp    3.0709  ...   0.0710       8.010989e+17       
+18       RD    broken_stick   20.6016  ...   0.5234       2.468951e+03       
+19       RD       quadratic  102.3586  ...   0.9172       1.488189e+05       
+20       RD          linear  202.8542  ...   1.4888       5.032705e+02       
+21       RD        constant  291.6496  ...   1.8280       1.000000e+00       
+
+[22 rows x 8 columns]
+   DistType        Model    AICc  AkaikeWeight  RawRMSE
+0        CD   log_cauchy  6.1308        0.6294   0.1676
+11       RD  exponential -9.5006        0.8107   0.0710
+  DistType        Model  Parameter  Estimate
+0       CD   log_cauchy   baseline   -0.1049
+1       CD   log_cauchy  amplitude  409.9757
+2       CD   log_cauchy         mu   -0.3127
+3       CD   log_cauchy      sigma    0.0500
+4       RD  exponential   baseline    0.0387
+5       RD  exponential  amplitude    5.6084
+6       RD  exponential       rate    0.9332
+
+Common distances: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                                                Term  ...  df_denom
+0                                          Intercept  ...       122
+1                                        C(Distance)  ...       122
+2             C(DistType, Treatment(reference='CD'))  ...       122
+3  C(Distance):C(DistType, Treatment(reference='C...  ...       122
+4                                         AtBoundary  ...       122
+5  AtBoundary:C(DistType, Treatment(reference='CD'))  ...       122
+
+[6 rows x 5 columns]
+                                          Test EarlyDistances  ...   CILow  CIHigh
+0  RD_vs_CD_difference_in_early_to_late_change     K+1 to K+3  ... -1.1302 -0.2595
+
+[1 rows x 9 columns]
+  DistType  Estimate      SE       T       P   CILow  CIHigh
+0       CD    0.0460  0.1077  0.4271  0.6701 -0.1672  0.2592
+1       RD    0.6426  0.4340  1.4804  0.1413 -0.2167  1.5018
+
+Cosine decay
+   DistType  Distance   N  NTrajectories  NStories  NBoundary
+0        CD         0  50             50        21          0
+1        CD         1  50             50        21          2
+2        CD         2  48             48        21          5
+3        CD         3  43             43        21          6
+4        CD         4  37             37        20          7
+5        CD         5  30             30        19          5
+6        CD         6  25             25        17          7
+7        CD         7  18             18        14          3
+8        CD         8  15             15        12          1
+9        CD         9  14             14        11          2
+10       CD        10  12             12         9          5
+11       RD         0  73             73        21          4
+12       RD         1  69             69        21          7
+13       RD         2  62             62        21          5
+14       RD         3  57             57        21          3
+15       RD         4  54             54        21          2
+16       RD         5  52             52        21          5
+17       RD         6  47             47        21          3
+18       RD         7  44             44        21          6
+19       RD         8  38             38        21          1
+20       RD         9  37             37        21          3
+21       RD        10  34             34        20          3
+  DistType         Term   statistic  ...    N  NTrajectories  NDistances
+0       CD    Intercept   66.976699  ...  342             50          11
+1       CD  C(Distance)    7.290186  ...  342             50          11
+2       CD   AtBoundary    8.208494  ...  342             50          11
+3       RD    Intercept  263.026193  ...  567             73          11
+4       RD  C(Distance)   29.676336  ...  567             73          11
+5       RD   AtBoundary    9.668529  ...  567             73          11
+
+[6 rows x 9 columns]
+   DistType  Distance Position  Estimate  ...        T       P   CILow  CIHigh
+0        CD         0        K    0.1351  ...   8.1839  0.0000  0.1019  0.1683
+1        CD         1      K+1    0.0544  ...   6.4168  0.0000  0.0374  0.0715
+2        CD         2      K+2    0.0395  ...   5.3612  0.0000  0.0247  0.0543
+3        CD         3      K+3    0.0373  ...   4.3834  0.0001  0.0202  0.0543
+4        CD         4      K+4    0.0237  ...   3.4709  0.0011  0.0100  0.0374
+5        CD         5      K+5    0.0224  ...   4.6785  0.0000  0.0128  0.0320
+6        CD         6      K+6    0.0235  ...   4.0949  0.0002  0.0120  0.0350
+7        CD         7      K+7    0.0210  ...   4.1453  0.0001  0.0108  0.0311
+8        CD         8      K+8    0.0246  ...   3.8213  0.0004  0.0117  0.0375
+9        CD         9      K+9    0.0186  ...   2.9384  0.0050  0.0059  0.0314
+10       CD        10     K+10    0.0307  ...   3.0635  0.0035  0.0106  0.0508
+11       RD         0        K    0.2439  ...  16.2181  0.0000  0.2139  0.2739
+12       RD         1      K+1    0.0689  ...   7.9654  0.0000  0.0517  0.0862
+13       RD         2      K+2    0.0370  ...   7.8287  0.0000  0.0276  0.0465
+14       RD         3      K+3    0.0253  ...   6.8215  0.0000  0.0179  0.0327
+15       RD         4      K+4    0.0198  ...   5.2087  0.0000  0.0123  0.0274
+16       RD         5      K+5    0.0260  ...   4.4920  0.0000  0.0144  0.0375
+17       RD         6      K+6    0.0158  ...   4.6170  0.0000  0.0090  0.0227
+18       RD         7      K+7    0.0164  ...   4.8848  0.0000  0.0097  0.0230
+19       RD         8      K+8    0.0133  ...   2.8941  0.0050  0.0041  0.0224
+20       RD         9      K+9    0.0133  ...   3.6093  0.0006  0.0059  0.0206
+21       RD        10     K+10    0.0110  ...   3.8680  0.0002  0.0054  0.0167
+
+[22 rows x 9 columns]
+  DistType  BoundaryModulation      SE       T       P   CILow  CIHigh
+0       CD             -0.0152  0.0053 -2.8650  0.0061 -0.0259 -0.0045
+1       RD             -0.0347  0.0112 -3.1094  0.0027 -0.0569 -0.0124
+
+   DistType           Model      AICc  ...  RawRMSE  ParamCovCondition  Error
+0        CD       power_law  -79.2295  ...   0.0119       1.589689e+04       
+1        CD     exponential  -76.6487  ...   0.0138       7.024904e+03       
+2        CD      log_cauchy  -74.0895  ...   0.0115       1.613646e+06       
+3        CD   zipf_alekseev  -73.9914  ...   0.0119       7.106782e+04       
+4        CD      log_normal  -73.5940  ...   0.0124       1.560202e+07       
+5        CD    exp_plus_exp  -67.5322  ...   0.0108       2.099138e+12       
+6        CD  exp_plus_power  -67.5295  ...   0.0108       1.093930e+10       
+7        CD       quadratic  -59.1558  ...   0.0207       3.329521e+04       
+8        CD    broken_stick  -57.5009  ...   0.0223       3.036892e+05       
+9        CD          linear  -28.3626  ...   0.0321       1.090638e+02       
+10       CD        constant  -23.1954  ...   0.0354       1.000000e+00       
+11       RD       power_law  -87.7491  ...   0.0034       5.234795e+03       
+12       RD   zipf_alekseev  -82.5110  ...   0.0034       4.984833e+04       
+13       RD      log_cauchy  -82.3026  ...   0.0033       1.206100e+04       
+14       RD      log_normal  -82.0111  ...   0.0037       5.000452e+07       
+15       RD     exponential  -80.9024  ...   0.0054       1.866749e+03       
+16       RD  exp_plus_power  -75.2270  ...   0.0033       6.313755e+15       
+17       RD    exp_plus_exp  -74.6997  ...   0.0035       7.446324e+04       
+18       RD    broken_stick  -23.6655  ...   0.0233       2.380817e+04       
+19       RD       quadratic   73.9767  ...   0.0495       7.063638e+04       
+20       RD          linear  139.9411  ...   0.0618       2.765051e+02       
+21       RD        constant  195.7640  ...   0.0712       1.000000e+00       
+
+[22 rows x 8 columns]
+   DistType      Model     AICc  AkaikeWeight  RawRMSE
+0        CD  power_law -79.2295        0.6711   0.0119
+11       RD  power_law -87.7491        0.8122   0.0034
+  DistType      Model  Parameter  Estimate
+0       CD  power_law   baseline    0.0146
+1       CD  power_law  amplitude    0.0926
+2       CD  power_law      alpha    1.7032
+3       RD  power_law   baseline    0.0093
+4       RD  power_law  amplitude    0.2348
+5       RD  power_law      alpha    1.9976
+
+Common distances: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                                                Term  ...  df_denom
+0                                          Intercept  ...       122
+1                                        C(Distance)  ...       122
+2             C(DistType, Treatment(reference='CD'))  ...       122
+3  C(Distance):C(DistType, Treatment(reference='C...  ...       122
+4                                         AtBoundary  ...       122
+5  AtBoundary:C(DistType, Treatment(reference='CD'))  ...       122
+
+[6 rows x 5 columns]
+                                          Test EarlyDistances  ...   CILow  CIHigh
+0  RD_vs_CD_difference_in_early_to_late_change     K+1 to K+3  ... -0.0261  0.0019
+
+[1 rows x 9 columns]
+  DistType  Estimate      SE       T       P   CILow  CIHigh
+0       CD   -0.0152  0.0053 -2.8926  0.0045 -0.0257 -0.0048
+1       RD   -0.0347  0.0112 -3.1088  0.0023 -0.0568 -0.0126
+
+Finished: Tue Aug 11 23:13:42 CEST 2026

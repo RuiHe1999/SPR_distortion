@@ -1,0 +1,340 @@
+Node: node026
+Lexical controls calculated: 970 unique words | Missing FreqH: 0
+Lag removed across gaps: 75
+Rows: 186300 | Participants: 99 | Non-missing outcome: 184253
+Duplicate Original mappings collapsed: 4
+DistType  Position
+CD        K-3         54
+          K-2         55
+          K-1         55
+          K           56
+          K+1         55
+          K+2         53
+          K+3         48
+          K_END       50
+RD        K-3         68
+          K-2         76
+          K-1         82
+          K           86
+          K+1         82
+          K+2         75
+          K+3         70
+          K_END       73
+dtype: int64
+DistType Condition Position  NObservations  NParticipants  NItems
+      CD        CD      K-3           1708             99      54
+      CD        CD      K-2           1743             99      55
+      CD        CD      K-1           1742             99      55
+      CD        CD        K           1776             99      56
+      CD        CD      K+1           1740             99      55
+      CD        CD      K+2           1682             99      53
+      CD        CD      K+3           1519             99      48
+      CD        CD    K_END           1573             99      50
+      CD  Original      K-3           1687             99      54
+      CD  Original      K-2           1719             99      55
+      CD  Original      K-1           1720             99      55
+      CD  Original        K           1750             99      56
+      CD  Original      K+1           1720             99      55
+      CD  Original      K+2           1657             99      53
+      CD  Original      K+3           1496             99      48
+      CD  Original    K_END           1558             99      50
+      RD  Original      K-3           2107             99      68
+      RD  Original      K-2           2372             99      76
+      RD  Original      K-1           2569             99      82
+      RD  Original        K           2696             99      86
+      RD  Original      K+1           2581             99      82
+      RD  Original      K+2           2360             99      75
+      RD  Original      K+3           2193             99      70
+      RD  Original    K_END           2272             99      73
+      RD        RD      K-3           2095             99      68
+      RD        RD      K-2           2336             99      76
+      RD        RD      K-1           2531             99      82
+      RD        RD        K           2652             99      86
+      RD        RD      K+1           2533             99      82
+      RD        RD      K+2           2302             99      75
+      RD        RD      K+3           2151             99      70
+      RD        RD    K_END           2269             99      73
+Fitting CD, K-3: N=3395, participants=99, items=54
+Fitting CD, K-2: N=3462, participants=99, items=55
+Fitting CD, K-1: N=3462, participants=99, items=55
+Fitting CD, K: N=3526, participants=99, items=56
+Fitting CD, K+1: N=3460, participants=99, items=55
+Fitting CD, K+2: N=3339, participants=99, items=53
+Fitting CD, K+3: N=3015, participants=99, items=48
+Fitting CD, K_END: N=3131, participants=99, items=50
+Fitting RD, K-3: N=4202, participants=99, items=68
+Fitting RD, K-2: N=4708, participants=99, items=76
+Fitting RD, K-1: N=5100, participants=99, items=82
+Fitting RD, K: N=5348, participants=99, items=86
+Fitting RD, K+1: N=5114, participants=99, items=82
+Fitting RD, K+2: N=4662, participants=99, items=75
+Fitting RD, K+3: N=4344, participants=99, items=70
+Fitting RD, K_END: N=4541, participants=99, items=73
+DistType Position    Beta  PercentChange      P  P_FDR_Within  P_FDR_All  Converged
+      CD      K-3 -0.0008        -0.0780 0.9247        0.9247     0.9247      False
+      CD      K-2 -0.0093        -0.9288 0.2494        0.3325     0.3325      False
+      CD      K-1  0.0117         1.1761 0.1439        0.2302     0.2093      False
+      CD        K  0.0013         0.1278 0.8897        0.9247     0.9247      False
+      CD      K+1  0.0612         6.3123 0.0000        0.0000     0.0000       True
+      CD      K+2  0.0730         7.5728 0.0000        0.0000     0.0000      False
+      CD      K+3  0.0507         5.1986 0.0000        0.0000     0.0000       True
+      CD    K_END  0.0385         3.9301 0.0001        0.0003     0.0004       True
+      RD      K-3  0.0148         1.4899 0.0648        0.0864     0.1037      False
+      RD      K-2  0.0076         0.7598 0.3085        0.3526     0.3798      False
+      RD      K-1 -0.0030        -0.2975 0.6844        0.6844     0.7822      False
+      RD        K  0.0145         1.4656 0.0583        0.0864     0.1036      False
+      RD      K+1  0.0379         3.8642 0.0000        0.0000     0.0000      False
+      RD      K+2  0.0271         2.7482 0.0007        0.0020     0.0017      False
+      RD      K+3  0.0218         2.2079 0.0048        0.0096     0.0096      False
+      RD    K_END  0.0373         3.8023 0.0000        0.0000     0.0000      False
+Saved results to: results/residual_analysis
+Rows: 186300
+Participants: 99
+   Word      FreqH  Length
+0    An   8.204499       2
+1   ant  17.075579       3
+2  went  11.627788       4
+3    to   5.216250       2
+4   the   4.218934       3
+
+Rows: 186300
+Participants: 99
+Rows with residualized log RT: 184253
+
+Template rows: 5969
+Story_Version
+CD          1991
+Original    1989
+RD          1989
+dtype: int64
+    Story Story_Version  WordIndex       Word   NormWord      Labels
+0  Story1      Original          1         An         an  [Original]
+1  Story1      Original          2        ant        ant  [Original]
+2  Story1      Original          3       went       went  [Original]
+3  Story1      Original          4         to         to  [Original]
+4  Story1      Original          5        the        the  [Original]
+5  Story1      Original          6  riverbank  riverbank  [Original]
+6  Story1      Original          7         to         to  [Original]
+7  Story1      Original          8     quench     quench  [Original]
+8  Story1      Original          9        its        its  [Original]
+9  Story1      Original         10     thirst     thirst  [Original]
+
+  DistType  NTrajectories  ...  MaxEndDistance  MultiSpanSentences
+0       CD             50  ...              29                   5
+1       RD             73  ...              24                  12
+
+[2 rows x 5 columns]
+
+Matched rows: 48833
+DistType Condition  Distance  AtBoundary  NObservations  NParticipants  NItems  NTrajectories
+      CD        CD         1           0           1515             99      48             48
+      CD        CD         1           1             58             50       2              2
+      CD        CD         2           0           1351             99      43             43
+      CD        CD         2           1            164             91       5              5
+      CD        CD         3           0           1150             99      37             37
+      CD        CD         3           1            202             87       6              6
+      CD        CD         4           0            924             99      30             30
+      CD        CD         4           1            225             90       7              7
+      CD        CD         5           0            763             99      25             25
+      CD        CD         5           1            160             89       5              5
+      CD        CD         6           0            549             99      18             18
+      CD        CD         6           1            215             92       7              7
+      CD        CD         7           0            458             99      15             15
+      CD        CD         7           1             91             74       3              3
+      CD        CD         8           0            430             99      14             14
+      CD        CD         8           1             28             28       1              1
+      CD        CD         9           0            361             98      12             12
+      CD        CD         9           1             69             57       2              2
+      CD        CD        10           0            205             86       7              7
+      CD        CD        10           1            156             79       5              5
+      CD  Original         1           0           1496             99      48             48
+      CD  Original         1           1             63             58       2              2
+      CD  Original         2           0           1335             99      43             43
+      CD  Original         2           1            161             86       5              5
+      CD  Original         3           0           1136             99      37             37
+      CD  Original         3           1            199             88       6              6
+      CD  Original         4           0            928             99      30             30
+      CD  Original         4           1            208             92       7              7
+      CD  Original         5           0            765             99      25             25
+      CD  Original         5           1            163             85       5              5
+      CD  Original         6           0            535             99      18             18
+      CD  Original         6           1            230             96       7              7
+      CD  Original         7           0            437             99      15             15
+      CD  Original         7           1             97             71       3              3
+      CD  Original         8           0            402             99      14             14
+      CD  Original         8           1             35             35       1              1
+      CD  Original         9           0            347             98      12             12
+      CD  Original         9           1             55             41       2              2
+      CD  Original        10           0            226             92       7              7
+      CD  Original        10           1            121             71       5              5
+      RD  Original         1           0           1936             99      62             62
+      RD  Original         1           1            222             97       7              7
+      RD  Original         2           0           1771             99      57             57
+      RD  Original         2           1            166             80       5              5
+      RD  Original         3           0           1673             99      54             54
+      RD  Original         3           1             98             69       3              3
+      RD  Original         4           0           1601             99      52             52
+      RD  Original         4           1             72             62       2              2
+      RD  Original         5           0           1446             99      47             47
+      RD  Original         5           1            155             84       5              5
+      RD  Original         6           0           1353             99      44             44
+      RD  Original         6           1             93             69       3              3
+      RD  Original         7           0           1174             99      38             38
+      RD  Original         7           1            179             90       6              6
+      RD  Original         8           0           1152             99      37             37
+      RD  Original         8           1             21             21       1              1
+      RD  Original         9           0           1061             99      34             34
+      RD  Original         9           1             91             66       3              3
+      RD  Original        10           0            971             99      31             31
+      RD  Original        10           1             90             69       3              3
+      RD        RD         1           0           1921             99      62             62
+      RD        RD         1           1            230             97       7              7
+      RD        RD         2           0           1770             99      57             57
+      RD        RD         2           1            150             79       5              5
+      RD        RD         3           0           1692             99      54             54
+      RD        RD         3           1             77             60       3              3
+      RD        RD         4           0           1629             99      52             52
+      RD        RD         4           1             63             55       2              2
+      RD        RD         5           0           1483             99      47             47
+      RD        RD         5           1            149             83       5              5
+      RD        RD         6           0           1381             99      44             44
+      RD        RD         6           1            102             69       3              3
+      RD        RD         7           0           1208             99      38             38
+      RD        RD         7           1            172             90       6              6
+      RD        RD         8           0           1166             99      37             37
+      RD        RD         8           1             42             42       1              1
+      RD        RD         9           0           1082             99      34             34
+      RD        RD         9           1             84             65       3              3
+      RD        RD        10           0            990             99      31             31
+      RD        RD        10           1             92             74       3              3
+
+CD: N=18013, participants=99, items=292, trajectories=50
+Finished in 0.9 seconds; optimizer=None; converged=True
+
+RD: N=30808, participants=99, items=494, trajectories=69
+Finished in 2.8 seconds; optimizer=None; converged=True
+
+Distance and boundary interaction tests:
+DistType                 Test  Statistic  DF            P  Converged
+      CD Condition_x_Distance  47.807253   9 2.774850e-07       True
+      CD Condition_x_Boundary   1.707451   1 1.913164e-01       True
+      RD Condition_x_Distance  19.424074   9 2.181904e-02       True
+      RD Condition_x_Boundary   7.829758   1 5.139298e-03       True
+
+Non-boundary distance effects:
+DistType Position    Beta     SE      P  PercentChange
+      CD      K+1  0.0701 0.0096 0.0000         7.2583
+      CD      K+2  0.0772 0.0099 0.0000         8.0240
+      CD      K+3  0.0469 0.0105 0.0000         4.7969
+      CD      K+4 -0.0013 0.0115 0.9070        -0.1343
+      CD      K+5  0.0193 0.0127 0.1287         1.9491
+      CD      K+6  0.0207 0.0142 0.1448         2.0936
+      CD      K+7  0.0155 0.0165 0.3478         1.5635
+      CD      K+8  0.0332 0.0181 0.0662         3.3733
+      CD      K+9  0.0230 0.0188 0.2209         2.3278
+      CD     K+10  0.0019 0.0208 0.9260         0.1934
+      RD      K+1  0.0397 0.0077 0.0000         4.0471
+      RD      K+2  0.0292 0.0081 0.0003         2.9657
+      RD      K+3  0.0219 0.0084 0.0091         2.2156
+      RD      K+4  0.0146 0.0086 0.0898         1.4723
+      RD      K+5  0.0176 0.0088 0.0461         1.7780
+      RD      K+6  0.0029 0.0093 0.7559         0.2880
+      RD      K+7  0.0180 0.0096 0.0614         1.8208
+      RD      K+8 -0.0018 0.0102 0.8639        -0.1753
+      RD      K+9  0.0124 0.0104 0.2336         1.2464
+      RD     K+10  0.0016 0.0108 0.8809         0.1622
+
+Boundary modulation:
+DistType  BoundaryModulationBeta     SE      Z  P_Wald   CILow  CIHigh  AdditionalPercentChangeAtBoundary
+      CD                  0.0152 0.0116 1.3067  0.1913 -0.0076  0.0379                             1.5265
+      RD                  0.0302 0.0108 2.7982  0.0051  0.0090  0.0513                             3.0634
+
+DistType          Model     AICc  DeltaAICc  AkaikeWeight  RawRMSE  ParamCovCondition Error
+      CD     log_normal -44.6847     0.0000        0.3927   0.0109       6.974592e+02      
+      CD     log_cauchy -43.4019     1.2827        0.2068   0.0117       5.359645e+03      
+      CD      quadratic -42.4891     2.1956        0.1310   0.0156       1.334625e+04      
+      CD   broken_stick -42.0807     2.6040        0.1068   0.0119       3.350067e+05      
+      CD    exponential -41.8242     2.8605        0.0940   0.0148       2.397339e+03      
+      CD      power_law -40.3865     4.2982        0.0458   0.0154       3.690147e+04      
+      CD         linear -38.5358     6.1489        0.0182   0.0188       7.362100e+01      
+      CD  zipf_alekseev -35.7968     8.8879        0.0046   0.0148       7.924085e+05      
+      CD   exp_plus_exp -26.8242    17.8605        0.0001   0.0148                inf      
+      CD exp_plus_power -26.8242    17.8605        0.0001   0.0148       8.493790e+19      
+      CD       constant -17.0498    27.6349        0.0000   0.0274       1.000000e+00      
+      RD         linear -64.5213     0.0000        0.4956   0.0068       1.273409e+02      
+      RD      power_law -62.2980     2.2233        0.1630   0.0055       1.479211e+05      
+      RD    exponential -62.2929     2.2285        0.1626   0.0055       8.466176e+03      
+      RD      quadratic -62.0469     2.4745        0.1438   0.0057       2.509877e+04      
+      RD     log_cauchy -56.3133     8.2080        0.0082   0.0055       6.218308e+06      
+      RD   broken_stick -56.3103     8.2110        0.0082   0.0055       6.188984e+06      
+      RD     log_normal -56.3097     8.2117        0.0082   0.0055       5.702631e+06      
+      RD  zipf_alekseev -56.3074     8.2139        0.0082   0.0055       2.368342e+06      
+      RD       constant -53.5947    10.9267        0.0021   0.0124       1.000000e+00      
+      RD   exp_plus_exp -47.3148    17.2065        0.0001   0.0055       9.233028e+16      
+      RD exp_plus_power -47.3107    17.2107        0.0001   0.0055       5.446818e+16      
+
+DistType      Model     AICc  AkaikeWeight  RawRMSE
+      CD log_normal -44.6847        0.3927   0.0109
+      RD     linear -64.5213        0.4956   0.0068
+
+DistType      Model Parameter  Estimate
+      CD log_normal  baseline    0.0153
+      CD log_normal amplitude    0.0816
+      CD log_normal        mu    0.3907
+      CD log_normal     sigma    0.4341
+      RD     linear  baseline    0.0362
+      RD     linear     slope   -0.0038
+
+CD peak distance: K+1.48
+CD peak effect: 0.0969
+CD half-maximum interval: K+0.89 to K+2.46
+CD predicted effect at K+1: 0.0697
+CD predicted effect at K+10: 0.0153
+RD change per additional word: -0.0038
+RD predicted effect at K+1: 0.0325
+RD predicted effect at K+10: -0.0016
+RD total change from K+1 to K+10: -0.0340
+CD: 1000/1000 successful bootstrap fits
+RD: 1000/1000 successful bootstrap fits
+
+DistType      Model                     Metric  PointEstimate   CILow  BootstrapMedian  CIHigh  NBootstrap
+      CD log_normal                   Baseline         0.0153  0.0013           0.0164  0.0836        1000
+      CD log_normal                  Amplitude         0.0816 -0.0838           0.0818  0.1199        1000
+      CD log_normal               PeakDistance         1.4780  1.2722           1.5001  5.6275        1000
+      CD log_normal                 PeakEffect         0.0969 -0.0077           0.0963  0.1302        1000
+      CD log_normal             HalfMaximumLow         0.8865  0.6177           0.9266  3.4368        1000
+      CD log_normal            HalfMaximumHigh         2.4641  2.0812           2.5080 10.3333        1000
+      CD log_normal             EffectAtKPlus1         0.0697  0.0504           0.0699  0.0889        1000
+      CD log_normal            EffectAtKPlus10         0.0153  0.0021           0.0165  0.0584        1000
+      CD log_normal    LocalComponentAtKPlus10         0.0000 -0.0403           0.0000  0.0007        1000
+      RD     linear               InterceptAtK         0.0362  0.0249           0.0359  0.0475        1000
+      RD     linear               SlopePerWord        -0.0038 -0.0058          -0.0038 -0.0018        1000
+      RD     linear             EffectAtKPlus1         0.0325  0.0232           0.0321  0.0423        1000
+      RD     linear            EffectAtKPlus10        -0.0016 -0.0140          -0.0016  0.0102        1000
+      RD     linear TotalChangeKPlus1ToKPlus10        -0.0340 -0.0521          -0.0342 -0.0160        1000
+      RD     linear       ZeroCrossingDistance         9.5896  7.3491           9.5799 15.2971        1000
+
+Direct CD-RD model: N=24557, participants=99, trajectories=119
+Common distances: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Finished in 2.4 seconds; optimizer=None; converged=True
+
+Direct-model Wald tests:
+                                                Term  ... df_constraint
+0                                          Intercept  ...             1
+1                                        C(Distance)  ...             9
+2             C(DistType, Treatment(reference='CD'))  ...             1
+3  C(Distance):C(DistType, Treatment(reference='C...  ...             9
+4                                         AtBoundary  ...             1
+5  AtBoundary:C(DistType, Treatment(reference='CD'))  ...             1
+6                                          WordIndex  ...             1
+7                                              FreqH  ...             1
+8                                             Length  ...             1
+
+[9 rows x 4 columns]
+
+Direct persistence contrast:
+                                          Test EarlyDistances  ... Optimizer  Error
+0  RD_vs_CD_difference_in_early_to_late_change     K+1 to K+3  ...      None       
+
+[1 rows x 12 columns]
+Saved main-text figure: results/residual_analysis/decay/main_distance_results.svg
