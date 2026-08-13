@@ -1,0 +1,49 @@
+DeltaSurprisal ~ C(Distance) * C(DistType, Treatment(reference='CD')) + AtBoundary * C(DistType, Treatment(reference='CD'))
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         DeltaSurprisal   R-squared:                       0.615
+Model:                            OLS   Adj. R-squared:                  0.605
+Method:                 Least Squares   F-statistic:                     27.48
+Date:                Tue, 11 Aug 2026   Prob (F-statistic):           1.08e-37
+Time:                        23:13:36   Log-Likelihood:                -1948.1
+No. Observations:                 909   AIC:                             3944.
+Df Residuals:                     885   BIC:                             4060.
+Df Model:                          23                                         
+Covariance Type:              cluster                                         
+==================================================================================================================================
+                                                                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                         10.2014      0.777     13.137      0.000       8.664      11.739
+C(Distance)[T.1]                                                  -9.6464      0.857    -11.261      0.000     -11.342      -7.951
+C(Distance)[T.2]                                                  -9.6550      0.833    -11.585      0.000     -11.305      -8.005
+C(Distance)[T.3]                                                  -9.8197      0.782    -12.557      0.000     -11.368      -8.272
+C(Distance)[T.4]                                                  -9.7638      0.815    -11.978      0.000     -11.377      -8.150
+C(Distance)[T.5]                                                 -10.1565      0.804    -12.637      0.000     -11.748      -8.565
+C(Distance)[T.6]                                                  -9.9007      0.762    -12.989      0.000     -11.410      -8.392
+C(Distance)[T.7]                                                 -10.1906      0.781    -13.054      0.000     -11.736      -8.645
+C(Distance)[T.8]                                                 -10.0621      0.757    -13.291      0.000     -11.561      -8.563
+C(Distance)[T.9]                                                 -10.1751      0.799    -12.737      0.000     -11.757      -8.594
+C(Distance)[T.10]                                                -10.0547      0.783    -12.844      0.000     -11.604      -8.505
+C(DistType, Treatment(reference='CD'))[T.RD]                      -4.5414      0.881     -5.154      0.000      -6.286      -2.797
+C(Distance)[T.1]:C(DistType, Treatment(reference='CD'))[T.RD]      6.1440      1.077      5.703      0.000       4.011       8.277
+C(Distance)[T.2]:C(DistType, Treatment(reference='CD'))[T.RD]      4.8125      0.955      5.037      0.000       2.921       6.704
+C(Distance)[T.3]:C(DistType, Treatment(reference='CD'))[T.RD]      4.6069      0.891      5.173      0.000       2.844       6.370
+C(Distance)[T.4]:C(DistType, Treatment(reference='CD'))[T.RD]      4.2414      0.909      4.667      0.000       2.442       6.040
+C(Distance)[T.5]:C(DistType, Treatment(reference='CD'))[T.RD]      4.5266      0.917      4.937      0.000       2.712       6.342
+C(Distance)[T.6]:C(DistType, Treatment(reference='CD'))[T.RD]      4.4361      0.873      5.081      0.000       2.708       6.165
+C(Distance)[T.7]:C(DistType, Treatment(reference='CD'))[T.RD]      4.4927      0.891      5.040      0.000       2.728       6.257
+C(Distance)[T.8]:C(DistType, Treatment(reference='CD'))[T.RD]      4.4135      0.862      5.118      0.000       2.706       6.121
+C(Distance)[T.9]:C(DistType, Treatment(reference='CD'))[T.RD]      4.6134      0.902      5.114      0.000       2.828       6.399
+C(Distance)[T.10]:C(DistType, Treatment(reference='CD'))[T.RD]     4.4521      0.887      5.020      0.000       2.696       6.208
+AtBoundary                                                         0.0460      0.108      0.427      0.670      -0.167       0.259
+AtBoundary:C(DistType, Treatment(reference='CD'))[T.RD]            0.5966      0.447      1.334      0.185      -0.289       1.482
+==============================================================================
+Omnibus:                      261.670   Durbin-Watson:                   2.090
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            11590.026
+Skew:                          -0.514   Prob(JB):                         0.00
+Kurtosis:                      20.463   Cond. No.                         30.5
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)

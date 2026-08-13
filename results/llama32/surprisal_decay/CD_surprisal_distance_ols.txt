@@ -1,0 +1,37 @@
+DeltaSurprisal ~ C(Distance) + AtBoundary
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         DeltaSurprisal   R-squared:                       0.702
+Model:                            OLS   Adj. R-squared:                  0.692
+Method:                 Least Squares   F-statistic:                     27.88
+Date:                Tue, 11 Aug 2026   Prob (F-statistic):           2.35e-17
+Time:                        23:13:32   Log-Likelihood:                -765.72
+No. Observations:                 342   AIC:                             1555.
+Df Residuals:                     330   BIC:                             1601.
+Df Model:                          11                                         
+Covariance Type:              cluster                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+Intercept            10.2014      0.784     13.011      0.000       8.626      11.777
+C(Distance)[T.1]     -9.6464      0.865    -11.154      0.000     -11.384      -7.908
+C(Distance)[T.2]     -9.6550      0.841    -11.475      0.000     -11.346      -7.964
+C(Distance)[T.3]     -9.8197      0.790    -12.437      0.000     -11.406      -8.233
+C(Distance)[T.4]     -9.7638      0.823    -11.864      0.000     -11.418      -8.110
+C(Distance)[T.5]    -10.1565      0.811    -12.516      0.000     -11.787      -8.526
+C(Distance)[T.6]     -9.9007      0.770    -12.865      0.000     -11.447      -8.354
+C(Distance)[T.7]    -10.1906      0.788    -12.929      0.000     -11.775      -8.607
+C(Distance)[T.8]    -10.0621      0.764    -13.164      0.000     -11.598      -8.526
+C(Distance)[T.9]    -10.1751      0.807    -12.615      0.000     -11.796      -8.554
+C(Distance)[T.10]   -10.0547      0.790    -12.721      0.000     -11.643      -8.466
+AtBoundary            0.0460      0.109      0.423      0.674      -0.173       0.265
+==============================================================================
+Omnibus:                      220.932   Durbin-Watson:                   2.059
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             8400.691
+Skew:                          -2.070   Prob(JB):                         0.00
+Kurtosis:                      26.925   Cond. No.                         10.2
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)

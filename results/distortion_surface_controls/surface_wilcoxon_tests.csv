@@ -1,0 +1,10 @@
+Metric,Label,Test,Contrast,NStories,MedianDifference,MeanDifference,P_FDR
+Perplexity,Perplexity,Siegel-Castellan,CD - Original,21,3.3560771460865855,3.5285002518806343,9.035296113432772e-05
+Perplexity,Perplexity,Siegel-Castellan,RD - Original,21,4.336529123619641,4.303878953633445,3.404774227171437e-08
+Perplexity,Perplexity,Siegel-Castellan,CD - RD,21,-0.46922690501570763,-0.7753787017528113,0.089632994267889
+MeanZipfFrequency,Lexical frequency,Siegel-Castellan,CD - Original,21,0.00017543859649205018,0.0016490660603074793,1.0
+MeanZipfFrequency,Lexical frequency,Siegel-Castellan,RD - Original,21,-0.021754385964912082,-0.020264392047524747,0.0017906181673080044
+MeanZipfFrequency,Lexical frequency,Siegel-Castellan,CD - RD,21,0.024615384615385594,0.021913458107832226,0.0017906181673080044
+MeanWordLength,Word length,Siegel-Castellan,CD - Original,21,0.009345794392523032,0.007635717432041093,0.214020726445834
+MeanWordLength,Word length,Siegel-Castellan,RD - Original,21,0.01680672268907646,0.009708376194243902,0.07578090489603745
+MeanWordLength,Word length,Siegel-Castellan,CD - RD,21,-0.010526315789473273,-0.0020726587622028085,0.44040069813900395
