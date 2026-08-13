@@ -1,0 +1,3 @@
+﻿Story_Version,N_Spans,Mean_Words_Before_K,Median_Words_Before_K,SD_Words_Before_K,Min_Words_Before_K,Max_Words_Before_K,Mean_Words_After_K,Median_Words_After_K,SD_Words_After_K,Min_Words_After_K,Max_Words_After_K
+CD,55,14.09,11.0,8.5,2,40,8.4,6.0,7.59,1,37
+RD,86,9.7,8.0,8.45,0,44,10.84,10.0,8.38,0,40

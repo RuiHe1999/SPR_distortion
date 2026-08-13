@@ -1,0 +1,445 @@
+Story ID,Stories,Disruption type,num of words,num of sentences,num of disruptions (conceptual-referential),disrupted sentence indeces,disrupted words,QA for the story
+1,"The Ant and the Dove
+
+An ant went to the riverbank to quench its thirst but was swept away by the rushing current, nearly drowning. A dove, perched on a tree hanging over the water, noticed the ant's struggle. Plucking a leaf, the dove dropped it into the stream near the ant. The ant climbed onto the leaf and floated safely back to shore. Not long after, a birdcatcher approached the tree, setting up lime-twigs to trap the dove. Seeing this, the ant stung the birdcatcher’s foot. Startled and in pain, he dropped the twigs, making a noise that alerted the dove, who quickly flew away to safety.",original,103,7,3-5,,,"Why did the ant go to the riverbank?
+a) To collect food.
+b) To meet the dove.
+c) To quench its thirst.
+d) None of the previous."
+1,"The Ant and the Dove
+
+An ant went to the riverbank to quench its thirst but was swept away by the rushing mountain, nearly drowning. A dove, perched on a spoon hanging over the water, noticed the ant's struggle. Plucking a leaf, the dove dropped it into the stream near the ant. The ant climbed onto the drop and floated safely back to shore. Not long after, a birdcatcher approached the tree, setting up lime-twigs to trap the dove. Seeing this, the ant stung the birdcatcher’s foot. Startled and in pain, he dropped the twigs, making a noise that alerted the dove, who quickly flew away to safety. ",conceptual,,,,1-2-4,mountain-spoon-drop,"Why did the ant go to the riverbank?
+a) To collect food.
+b) To meet the dove.
+c) To quench its thirst.
+d) None of the previous."
+1,"The Ant and the Dove
+
+An ant went to the riverbank to quench its thirst but was swept away by the rushing current, nearly drowning. A dove, perched on a tree hanging over the water, noticed an ant's struggle. Plucking another leaf, the dove dropped it into the stream near the ant. The ant climbed onto the leaf and floated safely back to shore. Not long after, a birdcatcher approached the tree, setting up lime-twigs to trap a dove. Seeing this, the ant stung a birdcatcher’s foot. Startled and in pain, it dropped the twigs, making a noise that alerted the dove, who quickly flew away to safety.",referential,,,,2-3-5-6-7,an-another-a-a-it,"Why did the ant go to the riverbank?
+a) To collect food.
+b) To meet the dove.
+c) To quench its thirst.
+d) None of the previous."
+2,"The Donkey and His Buyer
+
+A man wanted to buy a donkey and arranged with its owner to test the animal before making the purchase. He brought the donkey home and placed it in the stable with his other donkeys, so it could rest. Immediately, the new donkey left the group and joined the laziest and greediest one of them all. Seeing this, the man put a halter on the donkey and took it back to its owner. When asked how he could judge the animal so quickly, he replied, ""I don’t need any more time. A donkey’s character is clear from the company it keeps.""",original,97,6,3-4,,,"What did the new donkey do when placed in the stable?
+a) It stayed alone in a corner.
+b) It joined the greediest and laziest donkey.
+c) It tried to escape from the stable.
+d) None of the previous."
+2,"The Donkey and His Buyer
+
+A man wanted to buy a donkey and arranged with its owner to test the animal before making the purchase. He brought the donkey home and placed it in the stable with his other fingers, so it could rest. Immediately, the new donkey left the pillow and joined the laziest and greediest one of them all. Seeing this, the man put a lock on the donkey and took it back to its owner. When asked how he could judge the animal so quickly, he replied, ""I don’t need any more time. A donkey’s character is clear from the company it keeps.""",conceptual,,,,2-3-4,fingers-pillow-lock,"What did the new donkey do when placed in the stable?
+a) It stayed alone in a corner.
+b) It became friends with all donkeys.
+c) It tried to escape from the stable.
+d) None of the previous."
+2,"The Donkey and His Buyer
+
+A man wanted to buy a donkey and arranged with its owner to test the animal before making the purchase. He brought the donkey home and placed them in the stable with his other donkeys, so it could rest. Immediately, a new donkey left the group and joined the laziest and greediest one of them all. Seeing this, the man put a halter on another donkey and took it back to its owner. When asked how he could judge the animal so quickly, she replied, ""I don’t need any more time. A donkey’s character is clear from the company it keeps.""",referential,,,,2-3-4-5,them-a-another-she,"What did the new donkey do when placed in the stable?
+a) It stayed alone in a corner.
+b) It became friends with all donkeys.
+c) It tried to escape from the stable.
+d) None of the previous."
+3,"The Donkey and His Shadow
+
+A traveler hired a donkey to take him to a distant location. On a particularly hot day, with the sun blazing down, the traveler decided to take a break and sought shelter from the heat under the donkey's shadow. However, the shadow only provided enough space for one person, and both the traveler and the donkey's owner claimed the right to it. The owner argued that he had only lent the donkey, not its shadow, speaking in a tone that suggested he was entirely serious. In response, the traveler insisted that when he hired the donkey, he had also hired its shadow. The disagreement quickly escalated into a physical fight, and amid the chaos, the donkey took off and ran away.",original,111,6,3-5,,,"What caused the argument between the traveler and the owner?
+a) Who should use the shadow.
+b) Who owns the donkey.
+c) The donkey’s behavior.
+d) None of the previous."
+3,"The Donkey and His Shadow
+
+A traveler hired a donkey to take him to a distant location. On a particularly hot day, with the sun blazing down, the traveler decided to take a break and sought shelter from the heat under the donkey's shadow. However, the shadow only provided enough light for one person, and both the traveler and the donkey's owner claimed the right to it. The owner argued that he had only lent the donkey, not its answer, speaking in a tone that suggested he was entirely serious. In response, the traveler insisted that when he hired the donkey, he had also hired its shadow. The disagreement quickly escalated into a physical fight, and amid the rumors, the donkey took off and ran away.",conceptual,,,,3-4-6,light-answer-rumors,"Why did the traveler want to sit in the donkey's shadow?
+a) Because the traveler was hungry.
+b) Because the weather was very hot.
+c) Because the traveler fell asleep.
+d) None of the previous."
+3,"The Donkey and His Shadow
+
+A traveler hired a donkey to take him to a distant location. On a particularly hot day, with the sun blazing down, a traveler decided to take a break and sought shelter from the heat under the donkey's shadow. However, the shadow only provided enough space for one person, and both the traveler and the donkey's owner claimed the right to her. The owner argued that they had only lent the donkey, not its shadow, speaking in a tone that suggested he was entirely serious. In response, the traveler insisted that when he hired the donkey, he had also hired another shadow. The disagreement quickly escalated into a physical fight, and amid the chaos, a donkey took off and ran away.",referential,,,,2-3-4-5-6,a-her-they-another-a,"What did the donkey do at the end?
+a) It stayed with the traveler.
+b) It ran away.
+c) It helped the owner.
+d) None of the previous."
+4,"The Donkey and the Warhorse
+
+A donkey envied a horse for being so well-fed and cared for, while he barely had enough to eat and had to work hard for it. However, when war broke out, a soldier armed to the teeth mounted the horse and charged straight into the heart of battle, while the donkey stayed behind. The horse was gravely wounded and fell dead on the battlefield, tragically. Witnessing this, the donkey changed his mind and felt pity for the horse, realizing the cost of such a privileged life.",original,80,4,2-4,,,"What happened to the horse during the war?
+a) It became a general.
+b) It was wounded and died on the battlefield.
+c) It managed to escape.
+d) None of the previous."
+4,"The Donkey and the Warhorse
+
+A donkey envied a horse for being so well-fed and cared for, while he barely had enough to eat and had to work hard for it. However, when war broke out, a soldier armed to the teeth mounted the horse and charged straight into the heart of a jar, while the donkey stayed behind. The horse was gravely wounded and fell dead on the plate, tragically. Witnessing this, the donkey changed his mind and felt pity for the horse, realizing the cost of such a privileged life.",conceptual,,,,2-3,jar-plate,"Which characters were in the story?
+a) A horse, a soldier, and a lion.
+b) A donkey, a lion, and a soldier.
+c) A donkey, a horse, and a soldier.
+d) None of the previous."
+4,"The Donkey and the Warhorse
+
+A donkey envied a horse for being so well-fed and cared for, while he barely had enough to eat and had to work hard for her. However, when war broke out, a soldier armed to the teeth mounted a horse and charged straight into the heart of battle, while the donkey stayed behind. The horse was gravely wounded and fell dead on a battlefield, tragically. Witnessing this, the donkey changed their mind and felt pity for the horse, realizing the cost of such a privileged life.",referential,,,,1-2-3-4,her-a-a-their,"What happened to the horse during the war?
+a) It became a general.
+b) It was wounded and died on the battlefield.
+c) It managed to escape.
+d) None of the previous."
+5,"The Donkey Carrying the Statue
+
+A donkey once carried a famous wooden statue through the streets of a city to be placed in one of its temples. As he passed by, the crowd bowed low in reverence to the statue. The donkey, thinking they were showing respect to him, became proud, puffed himself up, and refused to move any further. Seeing the donkey stop, the driver struck him with his whip and said, ""You foolish animal! It’s not you they are bowing to; no one worships a donkey.",original,83,5,2-4,,,"Why did the crowd bow as the donkey passed?
+a) They were respecting the donkey.
+b) They were afraid of the donkey.
+c) They were admiring the statue the donkey carried.
+d) None of the previous."
+5,"The Donkey Carrying the Statue
+
+A donkey once carried a famous wooden statue through the streets of a city to be placed in one of its temples. As he passed by, the crowd bowed low in reverence to the statue. The donkey, thinking they were showing their expertise to him, became proud, puffed himself up, and refused to move any further. Seeing the donkey stop, the driver struck him with his memory and said, ""You foolish animal! It’s not you they are bowing to; no one worships a donkey.",conceptual,,,,3-4,their expertise-memory,"What did the crowd do when the donkey passed by?
+a) They cheered for the donkey.
+b) They laughed at the statue.
+c) They bowed to the statue.
+d) None of the previous."
+5,"The Donkey Carrying the Statue
+
+A donkey once carried a famous wooden statue through the streets of a city to be placed in one of its temples. As he passed by, the crowd bowed low in reverence to a statue. The donkey, thinking they were showing respect to them, became proud, puffed himself up, and refused to move any further. Seeing some donkey stop, the driver struck him with his whip and said, ""You foolish animal! It’s not her they are bowing to; no one worships a donkey.",referential,,,,2-3-4-5,a-them-some-her,"What was the donkey carrying?
+a) A cart.
+b) A soldier.
+c) A wooden statue.
+d) None of the previous."
+6,"The Bald Knight
+
+A bald knight who wore a wig went out hunting one day. Suddenly, a gust of wind blew off his hat and wig, causing his companions to burst into laughter. Stopping his horse, he laughed along with them and said, ""Isn't it funny that these hairs, which aren't even mine, would leave me when they already abandoned the man whose head they originally belonged to?""",original,65,3,2-3,,,"What caused the knight's companions to laugh?
+a) The knight's wig and hat were blown off by the wind.
+b) The knight's horse stopped suddenly.
+c) The knight made a joke about his wig.
+d) None of the previous."
+6,"The Bald Knight
+
+A bald knight who wore a wig went out hunting one day. Suddenly, a gust of wind blew off his wig and hand, causing his companions to burst into laughter. Stopping his horse, he laughed along with them and said, ""Isn't it funny that these hairs, which aren't even mine, would leave me when they already abandoned the man whose pocket they originally belonged to?""",conceptual,,,,2-3,hand-pocket,"What caused the knight's companions to laugh?
+a) The knight's wig was blown off by the wind.
+b) The knight's horse stopped suddenly.
+c) The knight made a joke about his wig.
+d) None of the previous."
+6,"The Bald Knight
+
+A bald knight who wore a wig went out hunting one day. Suddenly, a gust of wind blew off his hat and wig, causing her companions to burst into laughter. Stopping a horse, he laughed along with them and said, ""Isn't it funny that these hairs, which aren't even mine, would leave me when she already abandoned the man whose head they originally belonged to?""",referential,,,,3-3,her-a-she,"What happened to the knight’s wig while hunting?
+a) The wind blew it off.
+b) It fell into the river.
+c) His horse knocked it off.
+d) None of the previous."
+7,"The Bald Man and the Fly 
+
+A fly landed on the bald head of a man and bit him. Annoyed, the man tried to kill it with a hard slap but ended up hitting himself instead. The fly, having escaped, mocked him, saying, ""You wanted to take revenge on a tiny insect like me, and look—you’ve only hurt yourself instead!"" The bald man replied, ""I can forgive myself because I know I didn’t mean to cause harm. But you, a nasty little insect that enjoys biting people, I wish I could have killed you, even if it cost me more pain.""",original,95,5,3-4,,,"What did the fly do after escaping the man’s slap?
+a) It apologized to the man.
+b) It bit the man again.
+c) It mocked the man.
+d) None of the previous."
+7,"The Bald Man and the Fly 
+
+A fly landed on the bald head of a man and bit him. Annoyed, the man tried to kill it with a hard feather but ended up hitting himself instead. The fly, having escaped, mocked him, saying, ""You wanted to take notes on a tiny insect like me, and look—you’ve only hurt yourself instead!"" The bald man replied, ""I can forgive myself because I know I didn’t mean to cause harm. But you, a nasty little insect that enjoys biting dreams, I wish I could have killed you, even if it cost me more pain.""",conceptual,,,,"2,3,5",feather-notes-dreams,"Which character was in the story?
+a) A teacher.
+b) A bald man.
+c) A child.
+d) None of the previous."
+7,"The Bald Man and the Fly 
+
+A fly landed on the bald head of a man and bit him. Annoyed, the man tried to kill it with a hard slap but ended up hitting himself instead. A fly, having escaped, mocked him, saying, ""You wanted to take revenge on a tiny insect like them, and look—you’ve only hurt yourself instead!"" A bald man replied, ""I can forgive myself because I know I didn’t mean to cause harm. But you, a nasty little insect that enjoys biting people, I wish I could have killed her, even if it cost me more pain.""",referential,,,,"3,3,4,5",a-them-a-her,"What did the man do after the insect bit him?
+a) He ignored it and stayed calm.
+b) He tried to kill it but ended up hitting himself.
+c) He ran away from the insect.
+d) None of the previous."
+8,"The Bat, the Birds and the Beasts
+
+A great conflict was about to arise between the Birds and the Beasts. When the armies gathered, the Bat couldn’t decide which side to join. The Birds passing by invited him: “Join us,” but he replied, “I am a Beast.” Later, some Beasts urged him to join them, but he claimed, “I am a Bird.” Fortunately, peace was declared, and no battle occurred. The Bat tried to celebrate with the Birds, but they rejected him, forcing him to leave. When he approached the Beasts, they turned hostile, and he barely escaped. Reflecting on his situation, the Bat said, “Now I understand: ‘One who tries to belong to neither side ends up with no friends.’”",original,113,6,3-5,,,"Who are the main characters in the story?
+a) The Bat, the Birds, and the Beasts.
+b) The Birds, the Beasts, and the Bear.
+c) The Bat, the Bees, and the Birds.
+d) None of the previous."
+8,"The Bat, the Birds and the Beasts
+
+A great conflict was about to arise between the Birds and the Beasts. When the armies gathered, the Bat couldn’t decide which page to join. The Birds passing by invited him: “Join us,” but he replied, “I am a Beast.” Later, some Beasts urged him to join them, but he claimed, “I am a Bird.” Fortunately, peace was declared, and no leakage occurred. The Bat tried to celebrate with the Birds, but they rejected him, forcing him to leave. When he approached the Beasts, they turned hostile, and he barely escaped. Reflecting on his sneeze, the Bat said, “Now I understand: ‘One who tries to belong to neither side ends up with no friends.’”",conceptual,,,,"2,5,6",page-leakage-sneeze,"Who are the main characters in the story?
+a) The Bat, the Birds, and the Beasts.
+b) The Birds, the Beasts, and the Bear.
+c) The Bat, the Bees, and the Birds.
+d) None of the previous."
+8,"The Bat, the Birds and the Beasts
+
+A great conflict was about to arise between the Birds and the Beasts. When some armies gathered, the Bat couldn’t decide which side to join. The Birds passing by invited him: “Join us,” but he replied, “I am a Beast.” Later, some Beasts urged him to join them, but she claimed, “I am a Bird.” Fortunately, peace was declared, and no battle occurred. The Bat tried to celebrate with the Birds, but he rejected him, forcing him to leave. When he approached the Beasts, they turned hostile, and she barely escaped. Reflecting on some situation, the Bat said, “Now I understand: ‘One who tries to belong to neither side ends up with no friends.’”",referential,,,,"2,4,6,7,8",some-she-he-she-some,"Who are the main characters in the story?
+a) The Bat, the Birds, and the Beasts.
+b) The Birds, the Beasts, and the Bear.
+c) The Bat, the Bees, and the Birds.
+d) None of the previous."
+9,"The Bear and the Two Travelers 
+
+Two men were traveling together when a Bear suddenly appeared on their path. One of them quickly climbed a tree and hid among the branches, leaving the other man behind. The other, realizing he couldn’t escape, lay flat on the ground. As the Bear approached, it sniffed him thoroughly. Holding his breath, the man pretended to be dead, knowing that bears are said to avoid corpses. After inspecting him, the Bear wandered off. When the danger had passed, the man in the tree came down and jokingly asked, “What did the Bear whisper in your ear?”. His companion replied, “He gave me some wise advice: never travel with someone who abandons you in times of danger, especially without hesitation.”",original,111,8,3-5,,,"What animal appeared on the path?
+a) A lion.
+b) A wolf.
+c) A tiger.
+d) None of the previous."
+9,"The Bear and the Two Travelers 
+
+Two men were traveling together when a Bear suddenly appeared on their path. One of them quickly climbed a tree and hid among the whispers, leaving the other man behind. The other, realizing he couldn’t escape, lay flat on the ground. As the Bear approached, it sniffed him thoroughly. Holding his future, the man pretended to be dead, knowing that bears are said to avoid corpses. After inspecting him, the Bear wandered off. When the danger had passed, the man in the tree came down and jokingly asked, “What did the Bear whisper in your ear?”. His companion replied, “He gave me some wise advice: never travel with someone who abandons you in times of prayer, especially without hesitation.”",conceptual,,,,"2,5,8",whispers-future-prayer,"What animal appeared on the path?
+a) A lion.
+b) A wolf.
+c) A tiger.
+d) None of the previous."
+9,"The Bear and the Two Travelers 
+
+Two men were traveling together when a Bear suddenly appeared on their path. One of them quickly climbed a tree and hid among the branches, leaving the other man behind. The other, realizing it couldn’t escape, lay flat on the ground. As the Bear approached, it sniffed him thoroughly. Holding his breath, a man pretended to be dead, knowing that bears are said to avoid corpses. After inspecting him, another Bear wandered off. When the danger had passed, some man in the tree came down and jokingly asked, “What did the Bear whisper in her ear?”. His companion replied, “He gave me some wise advice: never travel with someone who abandons you in times of danger, especially without hesitation.”",referential,,,,"3,5,6,7,7",it-a-another-some-her,"What animal appeared on the path?
+a) A lion.
+b) A wolf.
+c) A tiger.
+d) None of the previous."
+10,"The Bee and Jupiter
+
+A Bee, the queen of her hive on Mount Hymettus, flew to Olympus to offer Jupiter some fresh honey from her combs. Pleased with the gift, Jupiter promised to grant her any wish. The Bee said, “Grant me a sting so that I can kill any mortal who tries to take my honey, and protect my hive.” Jupiter, loving mankind, was displeased by the request but honored his promise. He replied, “You shall have your sting, but it will come at a cost. If you use it, the sting will remain in the wound you inflict, and you will die because of it.”",original,99,6,3-4,,,"What did the Bee ask from Jupiter?
+a) More honey.
+b) A sting to protect her honey.
+c) A new hive.
+d) None of the previous."
+10,"The Bee and Jupiter
+
+A Bee, the queen of her hive on Mount Hymettus, flew to Olympus to offer Jupiter some fresh honey from her combs. Pleased with the gift, Jupiter promised to grant her any wish. The Bee said, “Grant me a sting so that I can kill any mortal who tries to take my word, and protect my hive."" Jupiter, loving mankind, was displeased by the compliment but honored his promise. He replied, “You shall have your sting, but it will come at a cost. If you use it, the sting will remain in the city you inflict, and you will die because of it.”",conceptual,,,,"3,4,6",word-compliment-city,"What did the Bee offer to Jupiter?
+a) Water.
+b) Honey.
+c) Flowers.
+d) None of the previous."
+10,"The Bee and Jupiter
+
+A Bee, the queen of her hive on Mount Hymettus, flew to Olympus to offer Jupiter some fresh honey from her combs. Pleased with any gift, Jupiter promised to grant her the wish. The Bee said, “Grant me a sting so that I can kill any mortal who tries to take my honey, and protect my hive.” Jupiter, loving mankind, was displeased by another request but honored his promise. He replied, “You shall have your sting, but it will come at a cost. If you use him, the sting will remain in the wound you inflict, and you will die because of it.”",referential,,,,"2,2,4,6",any-the-another-him,"What did the Bee offer to Jupiter?
+a) Water.
+b) Honey.
+c) Flowers.
+d) None of the previous."
+11,"The Dog and the Cook
+
+A rich man hosted a feast and invited many guests. His dog invited a stray, saying there would be plenty of food left over. The stray dog arrived, delighted at the sight of the feast, and thought he'd eat enough to last him for days. But as he moved around the dishes, the cook noticed him and quickly threw him out of the window, with no hesitation. The dog landed on the ground, limped away, and howled in pain. Other street dogs soon gathered around and asked about the meal. He replied, ""To be honest, I drank so much wine that I don’t remember anything. I don’t even know how I ended up outside.""",original,111,8,3-5,,,"What happened when the cook saw the stray dog?
+a) He gave him some food and let him stay.
+b) He ignored the dog and continued cooking.
+c) He grabbed the dog and threw him out of the window.
+d) None of the previous."
+11,"The Dog and the Cook
+
+A rich man hosted a feast and invited many guests. His dog invited a stray, saying there would be plenty of dreams left over. The stray dog arrived, delighted at the sight of the feast, and thought he'd eat enough to last him for days. But as he moved around the dishes, the cook noticed him and quickly threw him out of the wall, with no hesitation. The dog landed on the ground, limped away, and howled in pain. Other street dogs soon gathered around and asked about the meal. He replied, ""To be honest, I drank so much light that I don’t remember anything. I don’t even know how I ended up outside.""",conceptual,,,,,dreams-wall-light,"Who was invited to the feast by the dog of the rich man?
+a) A neighbor's dog.
+b) A stray dog.
+c) The cook’s dog.
+d) None of the previous."
+11,"The Dog and the Cook
+
+A rich man hosted a feast and invited many guests. His dog invited a stray, saying there would be plenty of food left over. A stray dog arrived, delighted at the sight of the feast, and thought he'd eat enough to last it for days. But as he moved around the dishes, a cook noticed him and quickly threw him out of the window, with no hesitation. Another dog landed on the ground, limped away, and howled in pain. Other street dogs soon gathered around and asked about the meal. He replied, ""To be honest, I drank so much wine that I don’t remember anything. I don’t even know how they ended up outside.""",referential,,,,,a-it-a-another-they,"Who was invited to the feast by the dog of the rich man?
+a) A neighbor's dog.
+b) A stray dog.
+c) The cook’s dog.
+d) None of the previous."
+12,"The Boy and the Hazelnuts
+
+
+A boy put his hand into a jar full of hazelnuts. He grabbed as many as he could, but when he tried to pull his hand out, the narrow neck of the jar trapped him. Unwilling to let go of any nuts yet unable to free his hand, he started to cry in frustration. A bystander saw this and said, ""Take only half, and you'll be able to pull your hand out easily.""",original,73,4,2-3,,,"Why couldn't the boy pull his hand out of the jar?
+a) His hand was too big for the jar.
+b) He had grabbed too many hazelnuts.
+c) The jar was too full of hazelnuts.
+d) None of the previous."
+12,"The Boy and the Hazelnuts
+
+
+A boy put his hand into a jar full of hazelnuts. He grabbed as many as he could, but when he tried to pull his hand out, the narrow neck of the curtain trapped him. Unwilling to let go of any nuts yet unable to free his paw, he started to cry in frustration. A bystander saw this and said, ""Take only half, and you'll be able to pull your hand out easily.""",conceptual,,,,,curtain-paw,"What was inside the jar?
+a) Hazelnuts.
+b) Candy.
+c) Coins.
+d) None of the previous."
+12,"The Boy and the Hazelnuts
+
+
+A boy put his hand into a jar full of hazelnuts. He grabbed as many as he could, but when she tried to pull his hand out, the narrow neck of the jar trapped him. Unwilling to let go of any nuts yet unable to free a hand, he started to cry in frustration. A bystander saw this and said, ""Take only half, and you'll be able to pull my hand out easily.""",referential,,,,,she-a-my,"What was inside the jar?
+a) Hazelnuts.
+b) Candy.
+c) Coins.
+d) None of the previous."
+13,"The Bundle of Sticks
+
+An old man, knowing he was near death, gathered his sons to give them some final advice. He asked his servants to bring in a bundle of sticks and handed it to his eldest son, saying, ""Break it."" The son struggled with all his strength but couldn’t break the bundle, no matter how hard he tried. One by one, the other sons tried, but none succeeded. Then the father said, ""Untie the bundle and take a stick each."" Once they had done so, he told them, ""Now, break them."" This time, each stick snapped easily. ""You see my point,"" the father said.",original,96,8,3-4,,,"Who is teaching whom a lesson in the story?
+a) The uncle to the nephews.
+b) The sons to the mother.
+c) The grandfather to his grandchildren.
+d) None of the previous."
+13,"The Bundle of Sticks
+
+An old man, knowing he was near death, gathered his sons to give them some final advice. He asked his servants to bring in a liter of sticks and handed it to his eldest son, saying, ""Break it."" The son struggled with all his strength but couldn’t break the truth, no matter how hard he tried. One by one, the other sons tried, but none succeeded. Then the father said, ""Untie the wind and take a stick each."" Once they had done so, he told them, ""Now, break them."" This time, each stick snapped easily. ""You see my point,"" the father said.",conceptual,,,,,liter-truth-wind,"Who are the characters in the story?
+a) The father, the sons, and the servants.
+b) The father, the mother, and the daughters.
+c) The grandfather, the grandchildren, and the neighbors.
+d) None of the previous."
+13,"The Bundle of Sticks
+
+An old man, knowing he was near death, gathered his sons to give them some final advice. He asked their servants to bring in a bundle of sticks and handed it to his eldest son, saying, ""Break it."" A son struggled with all his strength but couldn’t break the bundle, no matter how hard he tried. One by one, the other sons tried, but none succeeded. Then the father said, ""Untie the bundle and take a stick each."" Once she had done so, he told them, ""Now, break them."" This time, each stick snapped easily. ""You see their point,"" the father said.",referential,,,,,their-a-she-their,"What did the father use to teach his sons a lesson?
+a) A bundle of sticks.
+b) A bag of coins.
+c) A jar of hazelnuts.
+d) None of the previous."
+14,"The Cage Bird and the Bat
+
+A singing bird was kept in a cage outside a window, and it had a habit of singing at night while all the other birds slept. One night, a bat came and hung from the bars of the cage, asking the bird why she was silent during the day and only sang at night, with genuine curiosity. ""I have a good reason,"" the bird replied. ""Once, I sang during the day, and a hunter heard me, set his nets, and caught me. Since then, I've only sung at night."" The bat responded, ""It’s no use doing that now that you’re already trapped. If you had been careful before you were caught, you might still be free.""",original,113,7,3-5,,,"When does the bird sing?
+a) At night.
+b) During the day.
+c) Only when it is free.
+d) None of the previous."
+14,"The Cage Bird and the Bat
+
+A singing bird was kept in a cage outside a window, and it had a habit of singing at night while all the other birds slept. One night, a bat came and hung from the teeth of the cage, asking the bird why she was silent during the day and only sang at work, with genuine curiosity. ""I have a good reason,"" the bird replied. ""Once, I sang during the day, and a hunter heard me, set his eggs, and caught me. Since then, I've only sung at night."" The bat responded, ""It’s no use doing that now that you’re already trapped. If you had been careful before you were caught, you might still be free.""",conceptual,,,,,teeth-work-eggs,"When does the bird sing?
+a) At night.
+b) During the day.
+c) Only when it is free.
+d) None of the previous."
+14,"The Cage Bird and the Bat
+
+A singing bird was kept in a cage outside a window, and it had a habit of singing at night while all the other birds slept. One night, the bat came and hung from the bars of a cage, asking the bird why she was silent during the day and only sang at night, with genuine curiosity. ""I have another good reason,"" the bird replied. ""Once, I sang during the day, and a hunter heard me, set his nets, and caught you. Since then, I've only sung at night."" The bat responded, ""It’s no use doing that now that you’re already trapped. If you had been careful before they were caught, you might still be free.""",referential,,,,,the-a-another-you-they,"When does the bird sing?
+a) At night.
+b) During the day.
+c) Only when it is free.
+d) None of the previous."
+15,"The Camel
+
+When humans first saw the camel, they were so frightened by its massive size that they ran away. But after a while, noticing the animal’s calm and gentle nature, they gained enough confidence to approach it. Before long, realizing that the camel lacked any real spirit, they became bold enough to put a bridle on it and let a child lead it.",original,62,3,2-3,,,"Why did humans initially run away from the camel?
+a) They were afraid of its size.
+b) They were afraid of its speed.
+c) They thought it was dangerous.
+d) None of the previous."
+15,"The Camel
+
+When humans first saw the camel, they were so frightened by its massive success that they ran away. But after a while, noticing the animal’s calm and gentle shadow, they gained enough confidence to approach it. Before long, realizing that the camel lacked any real spirit, they became bold enough to put a bridle on it and let a child lead it.",conceptual,,,,,success-shadow,"What is the animal in the story?
+a) A horse.
+b) A lion.
+c) A camel.
+d) None of the previous."
+15,"The Camel
+
+When humans first saw the camel, they were so frightened by its massive size that they ran away. But after a while, noticing an animal’s calm and gentle nature, they gained enough confidence to approach it. Before long, realizing that some camel lacked any real spirit, they became bold enough to put a bridle on her and let a child lead it.",referential,,,,,an-some-her,"Why did humans initially run away from the camel?
+a) They were afraid of its size.
+b) They were afraid of its speed.
+c) They thought it was dangerous.
+d) None of the previous."
+16,"The Crow and the Pitcher
+
+A crow, dying of thirst, saw a pitcher and, hoping to find water, flew to it with excitement. When he arrived, he sadly discovered that the pitcher only contained a small amount of water, which he couldn’t reach. He tried everything he could think of to get to the water, but all his efforts were in vain. Finally, he gathered as many stones as he could carry and dropped them one by one into the pitcher with his beak, raising the water level within reach and saving his life.",original,89,4,2-4,,,"Why couldn’t the crow reach the water in the pitcher?
+a) The pitcher was too small.
+b) The crow was too tired.
+c) The water was too deep for him to reach.
+d) None of the previous."
+16,"The Crow and the Pitcher
+
+A crow, dying of thirst, saw a pitcher and, hoping to find water, flew to it with excitement. When he arrived, he sadly discovered that the pitcher only contained a small amount of emotions, which he couldn’t reach. He tried everything he could think of to get to the water, but all his efforts were in vain. Finally, he gathered as many stones as he could carry and dropped them one by one into the pitcher with his lips, raising the water level within reach and saving his life.",conceptual,,,,,emotions-lips,"What did the crow see in the story?
+a) A tree.
+b) Another crow.
+c) A pitcher with water.
+d) None of the previous."
+16,"The Crow and the Pitcher
+
+A crow, dying of thirst, saw a pitcher and, hoping to find water, flew to it with excitement. When he arrived, she sadly discovered that the pitcher only contained a small amount of water, which he couldn’t reach. They tried everything he could think of to get to the water, but all his efforts were in vain. Finally, he gathered as many stones as he could carry and dropped them one by one into the pitcher with his beak, raising some water level within reach and saving the life.",referential,,,,,she-they-some-the,"What did the crow see in the story?
+a) A tree.
+b) Another crow.
+c) A pitcher with water.
+d) None of the previous."
+17,"The Cat and the Rooster
+
+A cat caught a rooster and tried to come up with a reasonable excuse to eat him. He accused the rooster of being a nuisance to people by crowing at night and keeping them from sleeping, with feigned indignation. The rooster defended himself, saying that he actually helped people by waking them up in time for their work, with a tone of quiet pride. The cat replied, “No matter how many excuses you give, I’m not going to miss my meal,” and ate him.",original,74,4,2-3,,,"What happened at the end of the story?
+a) The rooster escaped.
+b) The cat let the rooster go.
+c) The cat ate the rooster.
+d) None of the previous."
+17,"The Cat and the Rooster
+
+A cat caught a rooster and tried to come up with a reasonable excuse to eat him. He accused the rooster of being a nuisance to people by crowing at night and keeping them from blinking, with feigned indignation. The rooster defended himself, saying that he actually helped people by waking them up in time for their past, with a tone of quiet pride. The cat replied, “No matter how many excuses you give, I’m not going to miss my meal,” and ate him.",conceptual,,,,,blinking-past,"What happened at the end of the story?
+a) The rooster escaped.
+b) The cat let the rooster go.
+c) The cat ate the rooster.
+d) None of the previous."
+17,"The Cat and the Rooster
+
+A cat caught a rooster and tried to come up with a reasonable excuse to eat him. He accused the rooster of being a nuisance to people by crowing at night and keeping it from sleeping, with feigned indignation. The rooster defended her, saying that he actually helped people by waking them up in time for their work, with a tone of quiet pride. The cat replied, “No matter how many excuses we give, I’m not going to miss my meal,” and ate him.",referential,,,,,it-her-we,"Whom did the cat accuse of being a nuisance?
+a) A dog.
+b) A mouse.
+c) A rabbit.
+d) None of the previous."
+18,"The Cat and the Mice
+
+A house was overrun with mice. When a cat discovered this, she moved in and started catching and eating them one by one. Fearing for their lives, the mice hid in their holes and refused to come out. Realizing she couldn’t reach them, the cat decided to lure them out with a trick. She climbed onto a peg, hung herself from it, and pretended to be dead. One of the mice cautiously peeked out and said, “Nice try, madam, but even if you turned into a sack of grain, we still wouldn’t come near you.”",original,95,6,3-4,,,"What animal was trying to catch the mice?
+a) A dog.
+b) A cat.
+c) A bird.
+d) None of the previous."
+18,"The Cat and the Mice
+
+A house was overrun with mice. When a cat discovered this, she moved in and started catching and eating them one by one. Fearing for their lives, the mice hid in their mirrors and refused to come out. Realizing she couldn’t reach them, the cat decided to lure them out with a trick. She climbed onto a thought, hung herself from it, and pretended to be dead. One of the mice cautiously peeked out and said, “Nice try, madam, but even if you turned into a sack of air, we still wouldn’t come near you.”",conceptual,,,,,mirrors-thought-air,"What animal was trying to catch the mice?
+a) A dog.
+b) A cat.
+c) A bird.
+d) None of the previous."
+18,"The Cat and the Mice
+
+A house was overrun with mice. When a cat discovered this, she moved in and started catching and eating them one by one. Fearing for her lives, the mice hid in their holes and refused to come out. Realizing she couldn’t reach them, some cat decided to lure them out with a trick. She climbed onto another peg, hung herself from it, and pretended to be dead. One of the mice cautiously peeked out and said, “Nice try, madam, but even if you turned into a sack of grain, he still wouldn’t come near you.”",referential,,,,,her-some-another-he,"What animal was trying to catch the mice?
+a) A dog.
+b) A cat.
+c) A bird.
+d) None of the previous."
+19,"The Charger and the Miller
+
+A charger, feeling the effects of old age, was sent to work at a mill instead of going out to fight in battle, with a heavy heart. But when he was forced to grind grain instead of serving in the wars, he lamented his change in fortune and remembered his past, saying, “Ah, Miller, I used to go off to battle, fully equipped with armor and a groom to care for me. Now, I don’t understand why I ever chose the mill over the battlefield.” The miller replied, “Stop complaining about the past. It’s the fate of all mortals to experience the ups and downs of fortune.”",original,103,4,3-5,,,"What did the charger regret?
+a) Fighting in battles.
+b) Never learning how to grind grain.
+b) Having been lazy in his youth.
+d) None of the previous."
+19,"The Charger and the Miller
+
+A charger, feeling the effects of old age, was sent to work at a mill instead of going out to fight in peace, with a heavy heart. But when he was forced to grind clouds instead of serving in the wars, he lamented his change in fortune and remembered his past, saying, “Ah, Miller, I used to go off to battle, fully equipped with armor and a bridge to care for me. Now, I don’t understand why I ever chose the mill over the battlefield.” The miller replied, “Stop complaining about the past. It’s the fate of all mortals to experience the ups and downs of fortune.”",conceptual,,,,,peace-clouds-bridge,"Where was the charger working now?
+a) On a farm.
+b) At a mill.
+c) In a forest.
+d) None of the previous."
+19,"The Charger and the Miller
+
+A charger, feeling the effects of old age, was sent to work at a mill instead of going out to fight in battle, with a heavy heart. But when he was forced to grind grain instead of serving in the wars, he lamented her change in fortune and remembered his past, saying, “Ah, Miller, I used to go off to battle, fully equipped with armor and a groom to care for it. Now, I don’t understand why I ever chose the mill over another battlefield.” A miller replied, “Stop complaining about the past. It’s the fate of the mortals to experience the ups and downs of fortune.”",referential,,,,,her-it-another-a-the,"Where was the charger working now?
+a) On a farm.
+b) At a mill.
+c) In a forest.
+d) None of the previous."
+20,"The Rooster and the Pearl
+
+A rooster was strutting around the farmyard among the hens when he suddenly noticed something shiny in the straw. ""Ho! ho!"" he said, ""That’s for me,"" and quickly dug it out from beneath the straw, with great excitement. What he found was a pearl that had somehow been lost in the yard. ""You may be a treasure,"" said the rooster, ""to those who value you, but for me, I would rather have a single grain of barley than a whole pile of pearls.""",original,80,6,2-4,,,"What did the rooster find in the straw?
+a) A coin.
+b) A grain of barley.
+c) A pearl.
+d) None of the previous."
+20,"The Rooster and the Pearl
+
+A rooster was strutting around the farmyard among the hens when he suddenly noticed something shiny in the straw. ""Ho! ho!"" he said, ""That’s for me,"" and quickly dug it out from beneath the sky, with great excitement. What he found was a pearl that had somehow been lost in the yard. ""You may be a treasure,"" said the rooster, ""to those who value you, but for me, I would rather have a single grain of time than a whole pile of pearls.""",conceptual,,,,,sky-time,"What did the rooster find in the straw?
+a) A coin.
+b) A grain of barley.
+c) A pearl.
+d) None of the previous."
+20,"The Rooster and the Pearl
+
+A rooster was strutting around the farmyard among the hens when he suddenly noticed something shiny in the straw. ""Ho! ho!"" they said, ""That’s for me,"" and quickly dug it out from beneath a straw, with great excitement. What he found was a pearl that had somehow been lost in some yard. ""You may be a treasure,"" said a rooster, ""to those who value you, but for me, I would rather have a single grain of barley than a whole pile of pearls.""",referential,,,,,they-a-some-a,"What did the rooster find in the straw?
+a) A coin.
+b) A grain of barley.
+c) A pearl.
+d) None of the previous."
+21,"The Eagle and the Arrow
+
+An eagle was sitting on a high rock, watching a hare that he planned to catch. But a hidden archer spotted the eagle, aimed carefully, and shot him with an arrow, without mercy. As the eagle lay dying, he looked at the arrow that struck his heart and noticed that its feathers came from his own wings. “It hurts even more,” he said, “to be killed by an arrow made with my own feathers.”",original,72,4,2-3,,,"What did the eagle notice about the arrow?
+a) The feathers on the arrow were from his own wings.
+b) The arrow was aimed by another eagle.
+c) The arrow was made of gold.
+d) None of the previous."
+21,"The Eagle and the Arrow
+
+An eagle was sitting on a high rock, watching a hare that he planned to catch. But a hidden archer spotted the eagle, aimed carefully, and shot him with a blanket, without mercy. As the eagle lay dying, he looked at the arrow that struck his reflection and noticed that its feathers came from his own wings. “It hurts even more,” he said, “to be killed by an arrow made with my own feathers.”",conceptual,,,,,blanket-reflection,"What did the eagle notice about the arrow?
+a) The feathers on the arrow were from his own wings.
+b) The arrow was aimed by another eagle.
+c) The arrow was made of gold.
+d) None of the previous."
+21,"The Eagle and the Arrow
+
+An eagle was sitting on a high rock, watching a hare that he planned to catch. But a hidden archer spotted some eagle, aimed carefully, and shot him with an arrow, without mercy. As the eagle lay dying, he looked at an arrow that struck his heart and noticed that its feathers came from his own wings. “It hurts even more,” she said, “to be killed by an arrow made with my own feathers.”",referential,,,,,some-an-she,"What was the eagle struck by?
+a) An arrow.
+b) A spear.
+c) A stone.
+d) None of the previous."
