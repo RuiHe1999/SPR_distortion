@@ -1,0 +1,5 @@
+DistType,Term,Statistic,P,DF,N,NParticipants,NItems,NTrajectories,NDistances,Converged,Optimizer,Error,Test
+CD,"C(Distance):C(Condition, Treatment(reference='Original'))",47.80725314516127,2.774849558734437e-07,9,18013,99,292,50,10,True,,,Condition_x_Distance
+CD,"AtBoundary:C(Condition, Treatment(reference='Original'))",1.7074514646554952,0.19131636407392516,1,18013,99,292,50,10,True,,,Condition_x_Boundary
+RD,"C(Distance):C(Condition, Treatment(reference='Original'))",19.424074282409997,0.02181903871726052,9,30808,99,494,69,10,True,,,Condition_x_Distance
+RD,"AtBoundary:C(Condition, Treatment(reference='Original'))",7.829757914488313,0.005139298252117353,1,30808,99,494,69,10,True,,,Condition_x_Boundary

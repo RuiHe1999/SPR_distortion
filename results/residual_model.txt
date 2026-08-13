@@ -1,0 +1,17 @@
+log_RT ~ lag1_logRT
+
+          Mixed Linear Model Regression Results
+=========================================================
+Model:            MixedLM Dependent Variable: log_RT     
+No. Observations: 184253  Method:             ML         
+No. Groups:       99      Scale:              0.0708     
+Min. group size:  1148    Log-Likelihood:     -17809.9379
+Max. group size:  1969    Converged:          Yes        
+Mean group size:  1861.1                                 
+---------------------------------------------------------
+               Coef. Std.Err.    z    P>|z| [0.025 0.975]
+---------------------------------------------------------
+Intercept      3.346    0.023 148.137 0.000  3.301  3.390
+lag1_logRT     0.414    0.002 199.794 0.000  0.410  0.418
+Group Var      0.037    0.019                            
+=========================================================

@@ -1,0 +1,10 @@
+Term,statistic,pvalue,df_constraint
+Intercept,[[29.76431355]],4.8789071958671235e-08,1
+C(Distance),[[152.20972928]],3.0728606340320085e-28,9
+"C(DistType, Treatment(reference='CD'))",[[74.0203355]],7.73164261683573e-18,1
+"C(Distance):C(DistType, Treatment(reference='CD'))",[[66.57867138]],7.10719814205233e-11,9
+AtBoundary,[[8.91097295]],0.0028346220113373154,1
+"AtBoundary:C(DistType, Treatment(reference='CD'))",[[4.44035844]],0.035098877787646456,1
+WordIndex,[[19.80438635]],8.578558658502978e-06,1
+FreqH,[[0.23110369]],0.6307066611909129,1
+Length,[[20.17150081]],7.079992972320414e-06,1

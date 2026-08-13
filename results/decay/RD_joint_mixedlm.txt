@@ -1,0 +1,40 @@
+resid_logRT ~ C(Distance) * C(Condition, Treatment(reference='Original')) + AtBoundary * C(Condition, Treatment(reference='Original')) + WordIndex + FreqH + Length
+
+                                     Mixed Linear Model Regression Results
+================================================================================================================
+Model:                               MixedLM                   Dependent Variable:                   resid_logRT
+No. Observations:                    30808                     Method:                               ML         
+No. Groups:                          1                         Scale:                                0.0622     
+Min. group size:                     30808                     Log-Likelihood:                       -1353.9822 
+Max. group size:                     30808                     Converged:                            Yes        
+Mean group size:                     30808.0                                                                    
+----------------------------------------------------------------------------------------------------------------
+                                                                      Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+----------------------------------------------------------------------------------------------------------------
+Intercept                                                             -0.062    0.101 -0.618 0.536 -0.259  0.135
+C(Distance)[T.2]                                                       0.016    0.008  2.069 0.039  0.001  0.032
+C(Distance)[T.3]                                                       0.020    0.008  2.487 0.013  0.004  0.036
+C(Distance)[T.4]                                                       0.006    0.008  0.696 0.486 -0.010  0.022
+C(Distance)[T.5]                                                       0.012    0.008  1.405 0.160 -0.005  0.028
+C(Distance)[T.6]                                                       0.008    0.009  0.921 0.357 -0.009  0.025
+C(Distance)[T.7]                                                       0.007    0.009  0.822 0.411 -0.010  0.024
+C(Distance)[T.8]                                                       0.008    0.009  0.823 0.410 -0.010  0.025
+C(Distance)[T.9]                                                       0.019    0.009  2.034 0.042  0.001  0.036
+C(Distance)[T.10]                                                      0.028    0.010  2.918 0.004  0.009  0.046
+C(Condition, Treatment(reference='Original'))[T.RD]                    0.040    0.008  5.162 0.000  0.025  0.055
+C(Distance)[T.2]:C(Condition, Treatment(reference='Original'))[T.RD]  -0.010    0.011 -0.945 0.345 -0.032  0.011
+C(Distance)[T.3]:C(Condition, Treatment(reference='Original'))[T.RD]  -0.018    0.011 -1.567 0.117 -0.040  0.004
+C(Distance)[T.4]:C(Condition, Treatment(reference='Original'))[T.RD]  -0.025    0.011 -2.179 0.029 -0.048 -0.003
+C(Distance)[T.5]:C(Condition, Treatment(reference='Original'))[T.RD]  -0.022    0.012 -1.899 0.058 -0.045  0.001
+C(Distance)[T.6]:C(Condition, Treatment(reference='Original'))[T.RD]  -0.037    0.012 -3.078 0.002 -0.060 -0.013
+C(Distance)[T.7]:C(Condition, Treatment(reference='Original'))[T.RD]  -0.022    0.012 -1.772 0.076 -0.046  0.002
+C(Distance)[T.8]:C(Condition, Treatment(reference='Original'))[T.RD]  -0.041    0.013 -3.244 0.001 -0.066 -0.016
+C(Distance)[T.9]:C(Condition, Treatment(reference='Original'))[T.RD]  -0.027    0.013 -2.123 0.034 -0.052 -0.002
+C(Distance)[T.10]:C(Condition, Treatment(reference='Original'))[T.RD] -0.038    0.013 -2.885 0.004 -0.064 -0.012
+AtBoundary                                                             0.022    0.008  2.841 0.004  0.007  0.037
+AtBoundary:C(Condition, Treatment(reference='Original'))[T.RD]         0.030    0.011  2.798 0.005  0.009  0.051
+WordIndex                                                              0.000    0.000  5.109 0.000  0.000  0.000
+FreqH                                                                 -0.000    0.000 -0.466 0.642 -0.001  0.001
+Length                                                                 0.006    0.001  5.520 0.000  0.004  0.007
+Participant Var                                                        0.995                                    
+================================================================================================================

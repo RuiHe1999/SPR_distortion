@@ -1,0 +1,2 @@
+Test,EarlyDistances,LateDistances,Estimate,SE,Z,P,CILow,CIHigh,Converged,Optimizer,Error
+RD_vs_CD_difference_in_early_to_late_change,K+1 to K+3,K+8 to K+10,0.021759896276258024,0.010714404752481914,2.030901088669205,0.0422650293351864,0.0007600488456086796,0.04275974370690737,True,,
