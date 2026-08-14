@@ -285,8 +285,3 @@ meta-llama/Llama-3.2-3B
 * QC outputs generated during preprocessing should be inspected before rerunning analyses on modified data.
 * `deidentify_data.py` is **not part of the standard reproduction workflow**. It documents preprocessing of the restricted original Gorilla export only.
 
-## Contact
-
-Rui He
-Grammar and Cognition Lab (GraC)
-Universitat Pompeu Fabra
